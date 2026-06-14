@@ -28,6 +28,20 @@ The TLE5011/5010 sensors respond to a change in the direction of the axis of the
 
 The subsequent axis settings are described in the [Axis Settings] section (Axis-configuration.md)
 
+**More about the TLE5010**
+
+This is the version that is commonly sold on eBay, AliExpress, and similar marketplaces.
+
+![](../images/tle-5010-on-pcb.jpg)
+
+Here is a simplified drawing of the internal wiring of the PCB:
+
+![](../images/tle-5010-simplified.png)
+
+For connecting the PCB to the microcontroller, use this schematic:
+
+![](../images/tle-5010-connection.png)
+
+There is no need for extra pull-up resistors or capacitors because the PCB already includes them (see the simplified wiring diagram).
 
 [Start page](../README.md) | [Previous level](Axes-connection.md)
-
